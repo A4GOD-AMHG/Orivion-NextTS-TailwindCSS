@@ -16,25 +16,10 @@
   --font-outfit: var(--font-outfit);
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+body::-webkit-scrollbar {
+  display: none;
 }
 
-.animate-fadeIn {
-  animation: fadeIn 1s ease-out;
-}
-
-.particle {
-  position: absolute;
-  background: radial-gradient(circle, theme('colors.electricBlue') 10%, transparent 70%);
-  opacity: 0.3;
-  pointer-events: none;
+body {
+  -ms-overflow-style: none;
 }
