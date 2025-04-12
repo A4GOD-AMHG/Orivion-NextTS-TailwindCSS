@@ -1,0 +1,35 @@
+{
+    "Header": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "cases": "Case Studies",
+        "contact": "Contact",
+        "selectLanguage": "ES"
+    },
+    "Home": {
+        "title": "Growth Beyond Gravity",
+        "subtitle": "We execute what your business NEEDS to grow",
+        "cta": "Launch Growth",
+        "about": "About us"
+    },
+    "About": {
+        "title": "The Anti-Agency",
+        "description": "We're built different. No fluff, just real growth strategies that deliver results."
+    },
+    "Services": {
+        "title": "What We Do",
+        "personal": {
+            "title": "Personal Brand Growth",
+            "description": "Strategic positioning and monetization for influencers and thought leaders."
+        },
+        "communities": {
+            "title": "Community Monetization",
+            "description": "Turn your audience into a sustainable revenue stream."
+        },
+        "ecommerce": {
+            "title": "E-commerce Growth",
+            "description": "Full-funnel optimization and conversion rate maximization."
+        }
+    }
+}

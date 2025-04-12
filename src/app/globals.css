@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-cosmic-black: #0B0B0F;
+  --color-space-gray: #1A1A1F;
+  --color-pure-white: #FFFFFF;
+  --color-light-gray: #B0B0B5;
+  --color-neon-purple: #9C27B0;
+  --color-electric-blue: #00BFFF;
+
+  --font-sora: var(--font-sora);
+  --font-space-grotestk: var(--font-space-grotestk);
+  --font-inter: var(--font-inter);
+  --font-outfit: var(--font-outfit);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out;
+}
+
+.particle {
+  position: absolute;
+  background: radial-gradient(circle, theme('colors.electricBlue') 10%, transparent 70%);
+  opacity: 0.3;
+  pointer-events: none;
+}
