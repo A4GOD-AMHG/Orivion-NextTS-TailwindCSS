@@ -14,7 +14,7 @@ const routes = [
 export default function Footer() {
     const currentYear = new Date().getFullYear();
     return (
-        <footer className="bg-white text-gray-800 text-center sm:text-left">
+        <footer className="bg-white text-gray-800 border-t border-gray-200 text-center sm:text-left">
             <div className="container mx-auto px-4 py-8 md:py-12 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                 <div className="text-xl flex flex-col items-center sm:items-start md:text-2xl">
                     <Link href="/">

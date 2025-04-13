@@ -1,10 +1,13 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { FaHandshake } from 'react-icons/fa';
+import { FaRocket } from 'react-icons/fa6';
+import { FiSearch, FiCheckCircle } from 'react-icons/fi';
 
 export default function AboutPage() {
     return (
-        <main>
+        <main className="bg-gray-50">
             <section className="relative py-20 px-4">
                 <div className="container mx-auto text-center">
                     <motion.h1
@@ -24,7 +27,7 @@ export default function AboutPage() {
                 </div>
             </section>
 
-            <section className="py-20 bg-white px-4">
+            <section className="py-20 px-4">
                 <div className="container mx-auto grid md:grid-cols-2 gap-12">
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
@@ -45,9 +48,7 @@ export default function AboutPage() {
                                 'Personalizan experiencias a escala'
                             ].map((item, index) => (
                                 <li key={index} className="flex items-start gap-4">
-                                    <div className="w-8 h-8 bg-cyan-400/10 rounded-full flex items-center justify-center mt-1">
-                                        <div className="w-2 h-2 bg-purple-600 rounded-full animate-pulse" />
-                                    </div>
+                                    <FiCheckCircle className="w-5 h-5 text-purple-600 mt-1 flex-shrink-0" />
                                     <span className="text-gray-800 flex-1">{item}</span>
                                 </li>
                             ))}
@@ -99,25 +100,25 @@ export default function AboutPage() {
                             {
                                 title: 'Innovación Constante',
                                 description: 'Invertimos 20% de recursos en I+D anual',
-                                icon: '🚀'
+                                icon: <FaRocket className="w-12 h-12 text-cyan-400" />
                             },
                             {
                                 title: 'Transparencia Radical',
                                 description: 'Reportes en tiempo real con métricas claras',
-                                icon: '🔍'
+                                icon: <FiSearch className="w-12 h-12 text-cyan-400" />
                             },
                             {
                                 title: 'Resultados Compartidos',
                                 description: 'Modelos de éxito compartido basados en KPIs',
-                                icon: '🤝'
+                                icon: <FaHandshake className="w-12 h-12 text-cyan-400" />
                             }
                         ].map((value, index) => (
                             <motion.div
                                 key={index}
                                 whileHover={{ scale: 1.05 }}
-                                className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl text-center"
+                                className="bg-white/5 backdrop-blur-sm flex flex-col items-center p-8 rounded-2xl text-center"
                             >
-                                <div className="text-4xl mb-4">{value.icon}</div>
+                                <div className="mb-4">{value.icon}</div>
                                 <h3 className="text-xl text-white mb-2">{value.title}</h3>
                                 <p className="text-gray-300">{value.description}</p>
                             </motion.div>

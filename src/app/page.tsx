@@ -1,12 +1,13 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Link from 'next/link';
+import Link from 'next/link'
+import { FiBarChart, FiTarget, FiCode, FiStar, FiZap, FiPieChart, FiCheckCircle } from 'react-icons/fi'
 
 export default function Home() {
     return (
-        <main className="min-h-screen">
-            <section className="min-h-[50vh] bg-gradient-to-b from-gray-50 to-gray-100 flex items-center justify-center py-14 sm:py-20 px-4">
+        <main>
+            <section className="min-h-[50vh] bg-gradient-to-b from-gray-100 to-gray-50 flex items-center justify-center py-14 sm:py-20 px-4" >
                 <div className="container mx-auto text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -32,9 +33,9 @@ export default function Home() {
                         </motion.button>
                     </motion.div>
                 </div>
-            </section>
+            </section >
 
-            <section className="py-20 bg-gray-100 px-10 sm:px-4">
+            <section className="py-20 bg-gray-50 px-10 sm:px-4">
                 <motion.h2 initial={{ opacity: 0, x: 0 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -57,7 +58,7 @@ export default function Home() {
                             <ul className="space-y-4">
                                 {['IA Predictiva', 'Automatización Inteligente', 'Estrategias Data-Driven', 'Optimización en Tiempo Real'].map((item, index) => (
                                     <li key={index} className="flex items-center gap-4">
-                                        <div className="w-3 h-3 bg-purple-500 rounded-full" />
+                                        <FiCheckCircle className="text-purple-700 w-5 h-5" />
                                         <span className="text-gray-800 dark:text-white">{item}</span>
                                     </li>
                                 ))}
@@ -113,32 +114,32 @@ export default function Home() {
                             {
                                 title: 'Marketing Digital',
                                 description: 'Campañas performance con ROI medible',
-                                icon: '📈'
+                                icon: <FiBarChart className="w-12 h-12 text-purple-400" />
                             },
                             {
                                 title: 'Gestión de Ads',
                                 description: 'Maximiza tu presupuesto publicitario',
-                                icon: '🎯'
+                                icon: <FiTarget className="w-12 h-12 text-purple-400" />
                             },
                             {
                                 title: 'Desarrollo Tecnológico',
                                 description: 'Soluciones a medida para escalar',
-                                icon: '💻'
+                                icon: <FiCode className="w-12 h-12 text-purple-400" />
                             },
                             {
                                 title: 'Branding Estratégico',
                                 description: 'Posicionamiento que genera confianza',
-                                icon: '🌟'
+                                icon: <FiStar className="w-12 h-12 text-purple-400" />
                             },
                             {
                                 title: 'Automatización',
                                 description: 'Flujos de trabajo inteligentes',
-                                icon: '🤖'
+                                icon: <FiZap className="w-12 h-12 text-purple-400" />
                             },
                             {
                                 title: 'Analítica Predictiva',
                                 description: 'Toma decisiones basadas en datos',
-                                icon: '📊'
+                                icon: <FiPieChart className="w-12 h-12 text-purple-400" />
                             }
                         ].map((service, index) => (
                             <motion.div
@@ -147,7 +148,7 @@ export default function Home() {
                                 className="p-8 rounded-2xl cursor-pointer bg-pure-white/5 backdrop-blur-sm border border-white/10 hover:border-cyan-400/20 transition-all"
                             >
                                 <Link href="/services">
-                                    <div className="text-4xl mb-4">{service.icon}</div>
+                                    <div className="mb-4">{service.icon}</div>
                                     <h3 className="text-xl text-pure-white mb-2">{service.title}</h3>
                                     <p className="text-white/80">{service.description}</p>
                                 </Link>
@@ -157,43 +158,54 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="py-20 bg-gray-100 px-4">
+            <section className="py-20 bg-gray-50 px-4">
                 <div className="container mx-auto max-w-4xl">
-                    <div className="bg-gradient-to-br from-purple-700 to-cyan-400 p-1 rounded-2xl">
-                        <div className="bg-gray-50 rounded-xl px-4 py-5 sm:p-12">
-                            <h2 className="text-2xl sm:text-3xl font-space-grotesk font-bold text-center mb-8">
-                                ¿Listo para transformar tu negocio?
-                            </h2>
-
-                            <form className="flex flex-col items-center space-y-6">
-                                <div className="w-full grid md:grid-cols-2 gap-6">
-                                    <input
-                                        type="text"
-                                        placeholder="Nombre"
-                                        className="w-full px-4 py-3 bg-white rounded-lg border-[1px] sm:border-[3px] border-gray-700 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20"
-                                    />
-
-                                    <input
-                                        type="email"
-                                        placeholder="Email"
-                                        className="w-full px-4 py-3 bg-white rounded-lg border-[1px] sm:border-[3px] border-gray-700 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20"
-                                    />
-                                </div>
-                                <textarea
-                                    rows={4}
-                                    placeholder="Cuéntanos sobre tu proyecto"
-                                    className="w-full px-4 py-3 bg-white rounded-lg border-[1px] sm:border-[3px] border-gray-700 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20"
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        className="bg-gray-50 rounded-xl shadow-lg p-6 md:p-8"
+                    >
+                        <span className="block text-center pb-8 text-gray-800 text-5xl font-semibold">
+                            Contáctanos
+                        </span>
+                        <form className="space-y-6">
+                            <div className="grid md:grid-cols-2 gap-4 md:gap-6">
+                                <input
+                                    type="text"
+                                    placeholder="Nombre completo"
+                                    className="w-full px-4 py-3 rounded-lg bg-white border-2 border-gray-800 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-100"
+                                    required
                                 />
-
-                                <button
+                                <input
+                                    type="email"
+                                    placeholder="Correo electrónico"
+                                    className="w-full px-4 py-3 rounded-lg bg-white border-2 border-gray-800 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-100"
+                                    required
+                                />
+                            </div>
+                            <input
+                                type="tel"
+                                placeholder="Teléfono (opcional)"
+                                className="w-full px-4 py-3 rounded-lg bg-white border-2 border-gray-800 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-100"
+                            />
+                            <textarea
+                                rows={4}
+                                placeholder="¿Cómo podemos ayudarte?"
+                                className="w-full px-4 py-3 rounded-lg bg-white border-2 border-gray-800 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-100"
+                                required
+                            />
+                            <div className='flex flex-row justify-center'>
+                                <motion.button
+                                    whileHover={{ scale: 1.05 }}
+                                    whileTap={{ scale: 0.95 }}
                                     type="submit"
-                                    className="w-52 hover:scale-105 transition-all px-4 bg-gradient-to-r cursor-pointer from-purple-700 to-cyan-400 text-white text-xl py-4 rounded-lg font-semibold"
+                                    className="px-8 bg-gradient-to-r cursor-pointer from-purple-600 to-cyan-400 text-white py-3 md:py-4 rounded-lg font-semibold text-md md:text-lg"
                                 >
                                     Enviar Mensaje
-                                </button>
-                            </form>
-                        </div>
-                    </div>
+                                </motion.button>
+                            </div>
+                        </form>
+                    </motion.div>
                 </div>
             </section>
         </main >

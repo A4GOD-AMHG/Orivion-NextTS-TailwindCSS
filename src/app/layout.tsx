@@ -40,18 +40,6 @@ export const metadata: Metadata = {
     },
 };
 
-// export const metadata: Metadata = {
-//     title: "ORIVION - Growth Beyond Gravity",
-//     description: "We execute what your business NEEDS to grow",
-//     keywords: ["growth agency", "ecommerce growth", "community monetization"],
-//     openGraph: {
-//         type: 'website',
-//         locale: 'es_ES',
-//         url: 'https://orivion.com',
-//         siteName: 'ORIVION',
-//     },
-// };
-
 export default function RootLayout({ children }: { children: ReactNode; }) {
     return (
         <html lang="es" >
