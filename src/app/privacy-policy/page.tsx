@@ -116,12 +116,12 @@ export default function PrivacyPage() {
                                 team@orivion.com
                             </a>
                         </p>
-                        <p className="text-lg mt-3">
+                        {/* <p className="text-lg mt-3">
                             Teléfono:{" "}
                             <a href="tel:+34 677746305" className="text-blue-600 hover:text-purple-600">
                                 +34 677746305
                             </a>
-                        </p>
+                        </p> */}
                         <p className="text-lg mt-3">
                             Dirección postal: 1209 Mountain Road Pl NE, Ste R, Albuquerque, NM 87110, Estados Unidos
                         </p>
