@@ -159,13 +159,13 @@ export default function Home() {
             </section>
 
             <section className="py-20 bg-gray-50 px-4">
-                <div className="container mx-auto max-w-4xl">
+                <div className="container mx-auto max-w-2xl">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        className="bg-gray-50 rounded-xl shadow-lg p-6 md:p-8"
+                        className="bg-white rounded-xl shadow-lg p-6 md:p-8"
                     >
-                        <span className="block text-center pb-8 text-gray-800 text-5xl font-semibold">
+                        <span className="block text-center pb-8 font-semibold text-gray-800 text-5xl">
                             Contáctanos
                         </span>
                         <form className="space-y-6">
@@ -195,14 +195,12 @@ export default function Home() {
                                 required
                             />
                             <div className='flex flex-row justify-center'>
-                                <motion.button
-                                    whileHover={{ scale: 1.05 }}
-                                    whileTap={{ scale: 0.95 }}
+                                <button
                                     type="submit"
-                                    className="px-8 bg-gradient-to-r cursor-pointer from-purple-600 to-cyan-400 text-white py-3 md:py-4 rounded-lg font-semibold text-md md:text-lg"
+                                    className="px-8 bg-gradient-to-r hover:scale-105 transition-all cursor-pointer from-purple-600 to-cyan-400 text-white py-3 md:py-4 rounded-lg font-semibold text-md md:text-lg"
                                 >
                                     Enviar Mensaje
-                                </motion.button>
+                                </button>
                             </div>
                         </form>
                     </motion.div>
