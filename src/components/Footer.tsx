@@ -51,7 +51,7 @@ export default function Footer() {
                             <Link
                                 key={item.name}
                                 href={item.href}
-                                className="hover:text-purple-600 text-lg md:text-xl flex items-center gap-2 text-gray-800"
+                                className="hover:text-purple-600 text-lg md:text-xl flex items-center gap-2 text-blue-600"
                             >
                                 {item.name}
                             </Link>
@@ -60,15 +60,15 @@ export default function Footer() {
                 </div>
 
                 <div className="text-sm space-y-2">
-                    <h4 className="text-gray-800 text-3xl md:text-4xl font-bold mb-3">
+                    <h4 className="text-gray-800 dark:text-pure-white font-bold text-3xl md:text-4xl mb-3">
                         Legal
                     </h4>
-                    <div className='flex flex-col items-center sm:items-start'>
+                    <div className='flex flex-col items-center sm:items-start gap-2'>
                         {legal.map((item) => (
                             <Link
                                 key={item.name}
                                 href={item.href}
-                                className="hover:text-purple-600 text-lg md:text-xl flex items-center gap-2 text-gray-800"
+                                className="hover:text-purple-600 text-lg md:text-xl flex items-center gap-2 text-blue-600"
                             >
                                 {item.name}
                             </Link>
