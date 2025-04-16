@@ -52,7 +52,7 @@ export default async function ContactPage() {
                         <p className="mb-2">¿Necesitas ayuda inmediata?</p>
                         <a
                             href="mailto:team@orivion.com"
-                            className="text-purple-600 hover:text-cyan-400 font-medium"
+                            className="text-blue-600 hover:text-purple-600 font-medium"
                         >
                             team@orivion.com
                         </a>

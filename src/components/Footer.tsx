@@ -25,13 +25,13 @@ export default function Footer() {
                     </Link>
                     <a
                         href="mailto:team@orivion.com"
-                        className="text-gray-800 mt-4 cursor-pointer hover:text-purple-600 text-base md:text-lg"
+                        className="text-blue-600 mt-4 cursor-pointer hover:text-purple-600 text-base md:text-lg"
                     >
                         team@orivion.com
                     </a>
                     <a
                         href="tel:+34 677746305"
-                        className='mt-2 cursor-pointer font-normal text-gray-800 hover:text-purple-600 sm:max-w-[300px] px-4 sm:px-0 text-base md:text-lg'>
+                        className='mt-2 cursor-pointer font-normal text-blue-600 hover:text-purple-600 sm:max-w-[300px] px-4 sm:px-0 text-base md:text-lg'>
                         +34 677746305
                     </a>
                     <p className="mt-2 font-normal text-gray-800 sm:max-w-[300px] px-4 sm:px-0 text-base md:text-lg">

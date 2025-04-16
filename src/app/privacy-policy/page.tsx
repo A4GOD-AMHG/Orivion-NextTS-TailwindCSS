@@ -112,13 +112,13 @@ export default function PrivacyPage() {
                         </p>
                         <p className="mt-3">
                             Email:{" "}
-                            <a href="mailto:team@orivion.com" className="text-gray-800 hover:text-purple-600">
+                            <a href="mailto:team@orivion.com" className="text-blue-600 hover:text-purple-600">
                                 team@orivion.com
                             </a>
                         </p>
                         <p className="mt-3">
                             Teléfono:{" "}
-                            <a href="tel:+34 677746305" className="text-gray-800 hover:text-purple-600">
+                            <a href="tel:+34 677746305" className="text-blue-600 hover:text-purple-600">
                                 +34 677746305
                             </a>
                         </p>
