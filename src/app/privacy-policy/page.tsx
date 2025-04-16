@@ -9,162 +9,124 @@ export default function PrivacyPage() {
 
                 <article className="space-y-10 text-space-gray dark:text-space-gray/90">
                     <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Responsable del Tratamiento
-                        </h2>
-                        <p>ORION GLOBAL LLC</p>
-                        <p>EIN: 33-4271275</p>
-                        <p>
-                            Dirección: 1209 Mountain Road Pl NE, Ste R, Albuquerque, NM 87110, Estados Unidos
+                        <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                            ORION GLOBAL LLC opera en el sitio web https://orivionhq.com/
+                        </h3>
+                        <p className="mt-3">
+                            Esta página se utiliza para informar a los visitantes del sitio web sobre nuestras políticas de recopilación, uso y divulgación de información personal si deciden utilizar nuestro Servicio, el sitio web de Orivion.
                         </p>
-                        <p>
-                            Contacto:{" "}
-                            <a href="mailto:team@emyux.com" className="text-electric-blue hover:underline">
-                                team@emyux.com
-                            </a>
+                        <p className="mt-3">
+                            Si decide utilizar nuestro Servicio, acepta la recopilación y el uso de información en relación con esta política. La información personal que recopilamos se utiliza para proporcionar y mejorar el Servicio. No utilizaremos ni compartiremos su información con nadie, salvo como se describe en esta Política de Privacidad.
                         </p>
-                        <p>Representación comercial: Emyux AI</p>
-                    </div>
-
-                    <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Recopilación de Información
-                        </h2>
-                        <p>
-                            Al utilizar nuestro servicio, aceptas la recopilación y el uso de
-                            información conforme a la presente política. La información personal
-                            recopilada se utiliza para ofrecer y mejorar nuestros servicios, adaptarlos
-                            a tus necesidades y brindarte una experiencia personalizada.
+                        <p className="mt-3">
+                            Los términos utilizados en esta Política de Privacidad tienen el mismo significado que en nuestros Términos y Condiciones, disponibles en https://orivionhq.com, a menos que se defina lo contrario en esta Política de Privacidad.
                         </p>
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Datos que Recopilamos
-                        </h2>
-                        <p>
-                            Recopilamos distintos tipos de información para optimizar la experiencia
-                            del usuario:
-                        </p>
-                        <ul className="list-disc pl-6 mt-2 space-y-2">
-                            <li>Información de contacto (nombre, email, teléfono)</li>
-                            <li>Datos de uso (páginas visitadas, tiempo de permanencia, interacciones)</li>
-                            <li>Dirección IP y datos técnicos del dispositivo y navegador</li>
-                            <li>Información proveniente de terceros o redes sociales (en caso de autenticarse por ellas)</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Uso de Cookies y Tecnologías Similares
-                        </h2>
-                        <p>
-                            Utilizamos cookies y tecnologías afines para mejorar la experiencia del usuario,
-                            facilitar el acceso a nuestros servicios y analizar el rendimiento del sitio.
-                            Puedes gestionar las preferencias y aceptar o rechazar su uso mediante el banner
-                            de cookies disponible al ingresar.
+                        <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                            Recopilación y uso de información
+                        </h3>
+                        <p className="mt-3">
+                            Para una mejor experiencia al usar nuestro Servicio, podríamos solicitarle cierta información personal, como su nombre, número de teléfono y dirección postal, entre otros. La información que recopilemos se utilizará para contactarle o identificarle.
                         </p>
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Transferencia y Retención de Datos
-                        </h2>
-                        <p>
-                            La información recopilada se almacena de forma segura y se retiene durante el
-                            período necesario para cumplir los fines descritos en esta política o según lo
-                            exijan las leyes aplicables. En algunos casos, los datos pueden ser transferidos a
-                            terceros proveedores ubicados en jurisdicciones diferentes.
+                        <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                            Datos de registro
+                        </h3>
+                        <p className="mt-3">
+                            Le informamos que, cada vez que visita nuestro Servicio, recopilamos información que su navegador nos envía, denominada Datos de Registro. Estos Datos de Registro pueden incluir información como la dirección IP de su ordenador, la versión del navegador, las páginas de nuestro Servicio que visita, la fecha y hora de su visita, el tiempo que pasa en esas páginas y otras estadísticas.
                         </p>
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Derechos del Usuario
-                        </h2>
-                        <p>
-                            Tienes derecho a acceder, rectificar, cancelar y oponerte al uso de tus datos personales.
-                            Para ejercer estos derechos, o para cualquier consulta respecto a la protección de
-                            tu información, contáctanos a través del correo electrónico{" "}
-                            <a href="mailto:team@emyux.com" className="text-electric-blue hover:underline">
-                                team@emyux.com
-                            </a>.
+                        <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                            Cookies
+                        </h3>
+                        <p className="mt-3">
+                            Las cookies son archivos con una pequeña cantidad de datos que se utilizan comúnmente como identificador único anónimo. Se envían a su navegador desde el sitio web que visita y se almacenan en el disco duro de su ordenador.
+                        </p>
+                        <p className="mt-3">
+                            Nuestro sitio web utiliza estas cookies para recopilar información y mejorar nuestro Servicio. Usted tiene la opción de aceptarlas o rechazarlas y saber cuándo se envían a su ordenador. Si decide rechazarlas, es posible que no pueda utilizar algunas partes de nuestro Servicio.
                         </p>
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Transferencia Internacional de Datos
-                        </h2>
-                        <p>
-                            Dado que operamos en múltiples regiones, algunos datos podrían ser transferidos
-                            y tratados en ubicaciones fuera de tu país de residencia. Nos comprometemos a que
-                            cualquier transferencia se realice bajo estrictos estándares de protección.
+                        <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                            Proveedores de Servicios
+                        </h3>
+                        <p className="mt-3">
+                            Podemos emplear empresas e individuos de terceros por las siguientes razones:
+                        </p>
+                        <h3 className="text-xl font-semibold text-gray-800 mt-6">Para facilitar nuestro servicio</h3>
+                        <p className="mt-2">
+                            Para proporcionar el Servicio en nuestro nombre;
+                        </p>
+                        <p className="mt-2">
+                            Para realizar servicios relacionados con el Servicio; o
+                        </p>
+                        <p className="mt-2">
+                            Para ayudarnos a analizar cómo se utiliza nuestro Servicio.
+                        </p>
+                        <p className="mt-2">
+                            Queremos informar a los usuarios de nuestro Servicio que estos terceros tienen acceso a su Información Personal. Esto se debe a que realizan las tareas que les fueron asignadas en nuestro nombre. Sin embargo, están obligados a no divulgar ni utilizar la información para ningún otro fin.
+                        </p>
+                        <h3 className="text-xl font-semibold text-gray-800 mt-6">Seguridad</h3>
+                        <p className="mt-3">
+                            Valoramos su confianza al proporcionarnos su Información Personal, por lo que nos esforzamos por utilizar medios comercialmente aceptables para protegerla. Sin embargo, recuerde que ningún método de transmisión por internet ni de almacenamiento electrónico es 100 % seguro y fiable, y no podemos garantizar su seguridad absoluta.
+                        </p>
+                        <h3 className="text-xl font-semibold text-gray-800 mt-6">Enlaces a otros sitios</h3>
+                        <p className="mt-3">
+                            Nuestro Servicio puede contener enlaces a otros sitios. Si hace clic en un enlace de un tercero, será redirigido a dicho sitio. Tenga en cuenta que estos sitios externos no son operados por nosotros. Por lo tanto, le recomendamos encarecidamente que revise la Política de Privacidad de estos sitios web. No tenemos control ni asumimos ninguna responsabilidad por el contenido, las políticas de privacidad ni las prácticas de ningún sitio o servicio de terceros.</p>
+                    </div>
+
+                    <div>
+                        <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                            Privacidad de los niños
+                        </h3>
+                        <p className="mt-3">
+                            Nuestros Servicios no están dirigidos a menores de 13 años. No recopilamos intencionalmente información personal identificable de menores de 13 años. En caso de que descubramos que un menor de 13 años nos ha proporcionado información personal, la eliminaremos inmediatamente de nuestros servidores. Si usted es padre, madre o tutor y sabe que su hijo nos ha proporcionado información personal, póngase en contacto con nosotros para que podamos tomar las medidas necesarias.
                         </p>
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Seguridad y Protección
-                        </h2>
-                        <p>
-                            Implementamos medidas de seguridad técnicas y organizativas para proteger tus
-                            datos personales contra accesos no autorizados, alteraciones, divulgación o destrucción.
-                            Sin embargo, ningún método digital es infalible; por ello, te recomendamos ejercer
-                            medidas de precaución adicionales.
+                        <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                            Cambios a esta Política de Privacidad
+                        </h3>
+                        <p className="mt-3">
+                            Podemos actualizar nuestra Política de Privacidad periódicamente. Por lo tanto, le recomendamos revisar esta página periódicamente para estar al tanto de cualquier cambio. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página. Estos cambios entran en vigor inmediatamente después de su publicación en esta página.
+                        </p>
+                        <p className="mt-3">
+                            Nuestra Política de Privacidad fue creada con la ayuda de la Plantilla de Política de Privacidad.
                         </p>
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Menores de Edad
+                        <h2 className="text-xl font-semibold text-gray-800 mb-4">
+                            Contáctanos
                         </h2>
-                        <p>
-                            Nuestros servicios no están dirigidos a menores de 13 años. En caso de detectar la
-                            presencia de datos personales de menores, se procederá a su eliminación inmediata.
+                        <p className="mt-3">
+                            Si tiene alguna pregunta o sugerencia sobre nuestra Política de Privacidad, no dude en contactarnos.
                         </p>
-                    </div>
-
-                    <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Cambios en la Política
-                        </h2>
-                        <p>
-                            Esta política se actualizará periódicamente para reflejar cambios legislativos o en
-                            nuestros procedimientos. Te recomendamos revisarla de forma regular. Los cambios son
-                            efectivos en el momento de su publicación.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Consentimiento y Aceptación
-                        </h2>
-                        <p>
-                            Al utilizar nuestro sitio web, confirmas haber leído, entendido y aceptado todos
-                            los términos aquí expuestos, así como el tratamiento de tus datos conforme a lo
-                            descrito en esta política.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Información Adicional y Contacto
-                        </h2>
-                        <p>
-                            Si deseas obtener mayor información sobre nuestras prácticas de privacidad o tienes
-                            cualquier duda, no dudes en contactarnos:
-                        </p>
-                        <p>
+                        <p className="mt-3">
                             Email:{" "}
-                            <a href="mailto:team@emyux.com" className="text-electric-blue hover:underline">
-                                team@emyux.com
+                            <a href="mailto:team@orivion.com" className="text-gray-800 hover:text-purple-600">
+                                team@orivion.com
                             </a>
                         </p>
-                        <p>
+                        <p className="mt-3">
+                            Teléfono:{" "}
+                            <a href="tel:+34 677746305" className="text-gray-800 hover:text-purple-600">
+                                +34 677746305
+                            </a>
+                        </p>
+                        <p className="mt-3">
                             Dirección postal: 1209 Mountain Road Pl NE, Ste R, Albuquerque, NM 87110, Estados Unidos
                         </p>
                     </div>
+
                 </article>
             </section>
         </main>

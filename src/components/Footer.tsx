@@ -63,15 +63,17 @@ export default function Footer() {
                     <h4 className="text-gray-800 text-3xl md:text-4xl font-bold mb-3">
                         Legal
                     </h4>
-                    {legal.map((item) => (
-                        <Link
-                            key={item.name}
-                            href={item.href}
-                            className="hover:text-purple-600 text-lg md:text-xl flex items-center gap-2 text-gray-800"
-                        >
-                            {item.name}
-                        </Link>
-                    ))}
+                    <div className='flex flex-col items-center sm:items-start'>
+                        {legal.map((item) => (
+                            <Link
+                                key={item.name}
+                                href={item.href}
+                                className="hover:text-purple-600 text-lg md:text-xl flex items-center gap-2 text-gray-800"
+                            >
+                                {item.name}
+                            </Link>
+                        ))}
+                    </div>
                 </div>
             </div>
 
