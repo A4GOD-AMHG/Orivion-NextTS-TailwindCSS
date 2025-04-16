@@ -51,10 +51,10 @@ export default async function ContactPage() {
                     >
                         <p className="mb-2">¿Necesitas ayuda inmediata?</p>
                         <a
-                            href="mailto:team@emyux.com"
+                            href="mailto:team@orivion.com"
                             className="text-purple-600 hover:text-cyan-400 font-medium"
                         >
-                            team@emyux.com
+                            team@orivion.com
                         </a>
                     </div>
                 </div>

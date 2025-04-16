@@ -12,7 +12,7 @@ export default function Header() {
         { name: 'Inicio', path: '/' },
         { name: '¿Quienes somos?', path: '/about-us' },
         { name: 'Servicios', path: '/services' },
-        { name: 'Políticas', path: '/privacy-policy' },
+        { name: 'Políticas de Privacidad', path: '/privacy-policy' },
         // { name: 'Términos', path: '/terms' },
         { name: 'Contáctanos', path: '/contact-us' },
     ]

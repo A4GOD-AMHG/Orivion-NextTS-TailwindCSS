@@ -6,10 +6,13 @@ const routes = [
     { name: "¿Quienes somos?", href: "/about-us" },
     { name: "Servicios", href: "/services" },
     // { name: 'Equipo', href: '/team' },
-    { name: "Políticas", href: "/privacy-policy" },
+];
+
+const legal = [
+    { name: "Políticas de Privacidad", href: "/privacy-policy" },
     // { name: "Términos", href: "/terms" },
     { name: "Contáctanos", href: "/contact-us" }
-];
+]
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -20,8 +23,22 @@ export default function Footer() {
                     <Link href="/">
                         <Logo width={200} height={100} />
                     </Link>
-                    <p className="mt-4 font-normal text-gray-800 sm:max-w-[300px] px-4 sm:px-0 text-base md:text-lg">
-                        Innovación en Growth Marketing y soluciones de IA
+                    <a
+                        href="mailto:team@orivion.com"
+                        className="text-gray-800 mt-4 cursor-pointer hover:text-purple-600 text-base md:text-lg"
+                    >
+                        team@orivion.com
+                    </a>
+                    <a
+                        href="tel:+34 677746305"
+                        className='mt-2 cursor-pointer font-normal text-gray-800 hover:text-purple-600 sm:max-w-[300px] px-4 sm:px-0 text-base md:text-lg'>
+                        +34 677746305
+                    </a>
+                    <p className="mt-2 font-normal text-gray-800 sm:max-w-[300px] px-4 sm:px-0 text-base md:text-lg">
+                        1209 Mountain Road Pl NE, Ste R
+                    </p>
+                    <p className="mt-2 font-normal text-gray-800 sm:max-w-[300px] px-4 sm:px-0 text-base md:text-lg">
+                        Albuquerque, NM 87110, USA
                     </p>
                 </div>
 
@@ -46,20 +63,14 @@ export default function Footer() {
                     <h4 className="text-gray-800 text-3xl md:text-4xl font-bold mb-3">
                         Legal
                     </h4>
-                    {[
-                        'ORION GLOBAL LLC',
-                        'EIN: 33-4271275',
-                        '1209 Mountain Road Pl NE, Ste R',
-                        'Albuquerque, NM 87110, USA',
-                        'Contacto: team@emyux.com',
-                        'Representación: Emyux AI'
-                    ].map((text, index) => (
-                        <p
-                            key={index}
-                            className="text-gray-800 text-base md:text-lg font-normal dark:text-light-gray"
+                    {legal.map((item) => (
+                        <Link
+                            key={item.name}
+                            href={item.href}
+                            className="hover:text-purple-600 text-lg md:text-xl flex items-center gap-2 text-gray-800"
                         >
-                            {text}
-                        </p>
+                            {item.name}
+                        </Link>
                     ))}
                 </div>
             </div>
