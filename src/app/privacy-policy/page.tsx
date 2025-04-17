@@ -10,7 +10,7 @@ export default function PrivacyPage() {
                 <article className="space-y-10 text-space-gray dark:text-space-gray/90">
                     <div>
                         <h3 className="text-xl font-semibold text-gray-800 mb-4">
-                            ORIVION GLOBAL LLC opera en el sitio web https://orivionhq.com/
+                            ORION GLOBAL LLC opera en el sitio web https://orivionhq.com/
                         </h3>
                         <p className="text-lg mt-3">
                             Esta página se utiliza para informar a los visitantes del sitio web sobre nuestras políticas de recopilación, uso y divulgación de información personal si deciden utilizar nuestro Servicio, el sitio web de Orivion.
