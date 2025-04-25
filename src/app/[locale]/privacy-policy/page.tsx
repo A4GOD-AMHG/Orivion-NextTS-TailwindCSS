@@ -27,26 +27,9 @@ export default function PrivacyPage(
     const companyInfo = {
         companyName: "Orivion",
         website: "https://orivionhq.com/",
-        termsLink: "https://orivionhq.com/terms",
         email: "team@orivion.com",
         address: "1209 Mountain Road Pl NE, Ste R, Albuquerque, NM 87110, Estados Unidos"
     };
-
-    const companyInfoContent = t.rich('introduction.companyInfo', {
-        website: (chunks) => (
-            <a href={companyInfo.website} className="text-blue-600 hover:text-purple-600">
-                {chunks}
-            </a>
-        )
-    });
-
-    const termsLinkContent = t.rich('introduction.termsLink', {
-        termsLink: (chunks) => (
-            <a href={companyInfo.termsLink} className="text-blue-600 hover:text-purple-600">
-                {chunks}
-            </a>
-        )
-    });
 
     const sections = t.raw('sections') as Record<string, PrivacySection>;
 
@@ -60,7 +43,13 @@ export default function PrivacyPage(
                 <article className="space-y-10 text-space-gray dark:text-space-gray/90">
                     <div>
                         <h3 className="text-xl font-semibold text-gray-800 mb-4">
-                            {companyInfoContent} {"https://orivionhq.com/"}
+                            {t.rich('introduction.companyInfo', {
+                                Link: (chunks) => (
+                                    <Link href={companyInfo.website} className="text-blue-600 hover:text-purple-600">
+                                        {chunks}
+                                    </Link>
+                                )
+                            })}
                         </h3>
                         <p className="text-lg mt-3">
                             {t('introduction.purpose', { companyName: companyInfo.companyName })}
@@ -69,7 +58,13 @@ export default function PrivacyPage(
                             {t('introduction.agreement')}
                         </p>
                         <p className="text-lg mt-3">
-                            {termsLinkContent}
+                            {t.rich('introduction.termsLink', {
+                                Link: (chunks) => (
+                                    <Link href={companyInfo.website} className="text-blue-600 hover:text-purple-600">
+                                        {chunks}
+                                    </Link>
+                                )
+                            })}
                         </p>
                     </div>
 
@@ -123,7 +118,7 @@ export default function PrivacyPage(
                             {t('sections.contact.content')}
                         </p>
                         <p className="text-lg mt-3">{t('sections.contact.email')}
-                            <Link href="mailto:${companyInfo.email}" className="text-blue-600 hover:text-purple-600">{companyInfo.email}</Link>
+                            <Link href="mailto:${companyInfo.email}" className="text-blue-600 hover:text-purple-600">{' ' + companyInfo.email}</Link>
                         </p>
                         <p className="text-lg mt-3">
                             {t('sections.contact.address')} {companyInfo.address}

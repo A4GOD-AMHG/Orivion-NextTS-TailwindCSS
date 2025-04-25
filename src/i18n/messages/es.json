@@ -32,11 +32,11 @@
     "RootLayout": {
         "title": "ORIVION - Crecimiento y Escalabilidad",
         "description": "Ejecutamos lo que tu negocio NECESITA para crecer",
-        "keywords": [
-            "agencia de crecimiento",
-            "crecimiento del ecommerce",
-            "monetización de la comunidad"
-        ]
+        "keywords": {
+            "1": "agencia de crecimiento",
+            "2": "crecimiento del ecommerce",
+            "3": "monetización de la comunidad"
+        }
     },
     "HomePage": {
         "hero": {
@@ -210,10 +210,10 @@
     "PrivacyPage": {
         "title": "Política de Privacidad",
         "introduction": {
-            "companyInfo": "ORION GLOBAL LLC opera en el sitio web",
-            "purpose": "Esta página se utiliza para informar a los visitantes del sitio web sobre nuestras políticas de recopilación, uso y divulgación de información personal si deciden utilizar nuestro Servicio, el sitio web de {companyName}.",
+            "companyInfo": "ORION GLOBAL LLC opera en el sitio web <Link>https://orivionhq.com</Link>",
+            "purpose": "Esta página se utiliza para informar a los visitantes del sitio web sobre nuestras políticas de recopilación, uso y divulgación de información personal si deciden utilizar nuestro Servicio, el sitio web de Orivion.",
             "agreement": "Si decide utilizar nuestro Servicio, acepta la recopilación y el uso de información en relación con esta política. La información personal que recopilamos se utiliza para proporcionar y mejorar el Servicio. No utilizaremos ni compartiremos su información con nadie, salvo como se describe en esta Política de Privacidad.",
-            "termsLink": "Los términos utilizados en esta Política de Privacidad tienen el mismo significado que en nuestros Términos y Condiciones, disponibles en {termsLink}, a menos que se defina lo contrario en esta Política de Privacidad."
+            "termsLink": "Los términos utilizados en esta Política de Privacidad tienen el mismo significado que en nuestros Términos y Condiciones, disponibles en <Link>https://orivionhq.com</Link>, a menos que se defina lo contrario en esta Política de Privacidad."
         },
         "sections": {
             "dataCollection": {

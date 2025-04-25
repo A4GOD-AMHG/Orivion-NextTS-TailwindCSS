@@ -32,11 +32,11 @@
     "RootLayout": {
         "title": "ORIVION - Growth & Scalability",
         "description": "We execute what your business NEEDS to grow",
-        "keywords": [
-            "growth agency",
-            "ecommerce growth",
-            "community monetization"
-        ]
+        "keywords": {
+            "1": "growth agency",
+            "2": "ecommerce growth",
+            "3": "community monetization"
+        }
     },
     "HomePage": {
         "hero": {
@@ -210,10 +210,10 @@
     "PrivacyPage": {
         "title": "Privacy Policy",
         "introduction": {
-            "companyInfo": "ORION GLOBAL LLC operates the website {website}",
+            "companyInfo": "ORION GLOBAL LLC operates the website <Link>https://orivionhq.com</Link>",
             "purpose": "This page informs website visitors about our policies regarding the collection, use, and disclosure of personal information if anyone decides to use our Service, the Orivion website.",
             "agreement": "By choosing to use our Service, you agree to the collection and use of information in relation with this policy. The personal information we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.",
-            "termsLink": "The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, available at {termsLink}, unless otherwise defined in this Privacy Policy."
+            "termsLink": "The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, available at <Link>https://orivionhq.com</Link>, unless otherwise defined in this Privacy Policy."
         },
         "sections": {
             "dataCollection": {

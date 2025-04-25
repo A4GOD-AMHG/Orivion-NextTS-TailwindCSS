@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Logo from './Logo'
 import { useTranslations } from 'next-intl'
-import LocaleSwitcher from '@/i18n/locale-switcher'
 
 export default function Footer() {
     const t = useTranslations('Footer')
@@ -20,7 +19,7 @@ export default function Footer() {
 
     return (
         <footer className="bg-white text-gray-800 border-t border-gray-200 text-center sm:text-left">
-            <div className="container mx-auto px-4 py-8 md:py-12 grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
+            <div className="container mx-auto px-4 py-8 md:py-12 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                 <div className="text-xl flex flex-col items-center sm:items-start md:text-2xl">
                     <Link href="/">
                         <Logo width={200} height={100} />
@@ -71,10 +70,6 @@ export default function Footer() {
                             </Link>
                         ))}
                     </div>
-                </div>
-
-                <div className="flex items-center justify-center md:justify-end">
-                    <LocaleSwitcher />
                 </div>
             </div>
 
