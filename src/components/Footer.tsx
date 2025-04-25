@@ -1,24 +1,26 @@
-import Link from 'next/link';
-import Logo from './Logo';
-
-const routes = [
-    { name: "Inicio", href: "/" },
-    { name: "¿Quienes somos?", href: "/about-us" },
-    { name: "Servicios", href: "/services" },
-    // { name: 'Equipo', href: '/team' },
-];
-
-const legal = [
-    { name: "Políticas de Privacidad", href: "/privacy-policy" },
-    // { name: "Términos", href: "/terms" },
-    { name: "Contáctanos", href: "/contact-us" }
-]
+import Link from 'next/link'
+import Logo from './Logo'
+import { useTranslations } from 'next-intl'
+import LocaleSwitcher from '@/i18n/locale-switcher'
 
 export default function Footer() {
-    const currentYear = new Date().getFullYear();
+    const t = useTranslations('Footer')
+    const currentYear = new Date().getFullYear()
+
+    const routes = [
+        { name: t('routes.home'), href: "/" },
+        { name: t('routes.about'), href: "/about-us" },
+        { name: t('routes.services'), href: "/services" },
+    ]
+
+    const legal = [
+        { name: t('routes.privacy'), href: "/privacy-policy" },
+        { name: t('routes.contact'), href: "/contact-us" }
+    ]
+
     return (
         <footer className="bg-white text-gray-800 border-t border-gray-200 text-center sm:text-left">
-            <div className="container mx-auto px-4 py-8 md:py-12 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            <div className="container mx-auto px-4 py-8 md:py-12 grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
                 <div className="text-xl flex flex-col items-center sm:items-start md:text-2xl">
                     <Link href="/">
                         <Logo width={200} height={100} />
@@ -29,22 +31,17 @@ export default function Footer() {
                     >
                         team@orivion.com
                     </a>
-                    {/* <a
-                        href="tel:+34 677746305"
-                        className='mt-2 cursor-pointer font-normal text-blue-600 hover:text-purple-600 sm:max-w-[300px] px-4 sm:px-0 text-base md:text-lg'>
-                        +34 677746305
-                    </a> */}
                     <p className="mt-2 font-normal text-gray-800 sm:max-w-[300px] px-4 sm:px-0 text-base md:text-lg">
-                        1209 Mountain Road Pl NE, Ste R
+                        {t('address')}
                     </p>
                     <p className="mt-2 font-normal text-gray-800 sm:max-w-[300px] px-4 sm:px-0 text-base md:text-lg">
-                        Albuquerque, NM 87110, USA
+                        {t('location')}
                     </p>
                 </div>
 
                 <div>
                     <h4 className="text-gray-800 dark:text-pure-white font-bold text-3xl md:text-4xl mb-3">
-                        Enlaces Rápidos
+                        {t('quickLinks')}
                     </h4>
                     <div className="flex flex-col items-center sm:items-start gap-2">
                         {routes.map((item) => (
@@ -59,9 +56,9 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="text-sm space-y-2">
+                <div>
                     <h4 className="text-gray-800 dark:text-pure-white font-bold text-3xl md:text-4xl mb-3">
-                        Legal
+                        {t('legal')}
                     </h4>
                     <div className='flex flex-col items-center sm:items-start gap-2'>
                         {legal.map((item) => (
@@ -75,11 +72,15 @@ export default function Footer() {
                         ))}
                     </div>
                 </div>
+
+                <div className="flex items-center justify-center md:justify-end">
+                    <LocaleSwitcher />
+                </div>
             </div>
 
             <p className="text-gray-800 text-center py-4 md:py-8 font-medium text-base md:text-xl">
-                Creado por Emyux AI. © {currentYear} Todos los derechos reservados
+                {t('copyright', { year: currentYear })}
             </p>
         </footer>
-    );
+    )
 }

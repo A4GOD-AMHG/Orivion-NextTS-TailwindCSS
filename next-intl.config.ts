@@ -1,8 +1,7 @@
-import path from 'path';
-import createConfig from 'next-intl/plugin';
+import { NextConfig } from 'next';
+import createNextIntlPlugin from 'next-intl/plugin';
 
-module.exports = createConfig(path.join(__dirname, 'locales', '[lang].json'));
+const nextConfig: NextConfig = {};
 
-// import createConfig from 'next-intl/plugin';
-
-// module.exports = createConfig('./locales/[lang].json');
+const withNextIntl = createNextIntlPlugin();
+export default withNextIntl(nextConfig);

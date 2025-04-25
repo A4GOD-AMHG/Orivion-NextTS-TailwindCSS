@@ -1,0 +1,341 @@
+{
+    "Header": {
+        "routes": {
+            "home": "Home",
+            "about": "About Us",
+            "services": "Services",
+            "privacy": "Privacy Policy",
+            "contact": "Contact Us"
+        }
+    },
+    "Footer": {
+        "quickLinks": "Quick Links",
+        "legal": "Legal",
+        "copyright": "Created by Emyux AI. © {year} All rights reserved",
+        "address": "1209 Mountain Road Pl NE, Ste R",
+        "location": "Albuquerque, NM 87110, USA",
+        "routes": {
+            "home": "Home",
+            "about": "About Us",
+            "services": "Services",
+            "privacy": "Privacy Policy",
+            "contact": "Contact Us"
+        }
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": {
+            "en": "EN",
+            "es": "ES"
+        }
+    },
+    "RootLayout": {
+        "title": "ORIVION - Growth & Scalability",
+        "description": "We execute what your business NEEDS to grow",
+        "keywords": [
+            "growth agency",
+            "ecommerce growth",
+            "community monetization"
+        ]
+    },
+    "HomePage": {
+        "hero": {
+            "title": "Transform your business with <span>Intelligent Growth</span>",
+            "subtitle": "We empower companies with AI solutions and marketing strategies that deliver real results",
+            "button": "Start with us now"
+        },
+        "about": {
+            "title": "Who We Are?",
+            "heading": "Orivion: Strategic Growth Experts",
+            "description": "With over 2 years of experience, we've perfected the art of scaling businesses through:",
+            "items": [
+                "Predictive AI",
+                "Smart Automation",
+                "Data-Driven Strategies",
+                "Real-Time Optimization"
+            ]
+        },
+        "stats": {
+            "values": [
+                "28",
+                "95%",
+                "4.7/5"
+            ],
+            "labels": [
+                "Clients",
+                "Satisfaction",
+                "Rating"
+            ]
+        },
+        "arsenal": {
+            "title": "Our Growth Arsenal",
+            "subtitle": "Integrated solutions combining cutting-edge technology and human expertise",
+            "services": [
+                {
+                    "title": "Digital Marketing",
+                    "description": "Performance campaigns with measurable ROI"
+                },
+                {
+                    "title": "Ads Management",
+                    "description": "Maximize your advertising budget"
+                },
+                {
+                    "title": "Tech Development",
+                    "description": "Custom solutions to scale"
+                },
+                {
+                    "title": "Strategic Branding",
+                    "description": "Trust-building positioning"
+                },
+                {
+                    "title": "Automation",
+                    "description": "Smart workflows"
+                },
+                {
+                    "title": "Predictive Analytics",
+                    "description": "Data-driven decision making"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contact Us",
+            "form": {
+                "namePlaceholder": "Full Name",
+                "emailPlaceholder": "Email Address",
+                "phonePlaceholder": "Phone (optional)",
+                "messagePlaceholder": "How can we help you?",
+                "submit": "Send Message"
+            }
+        }
+    },
+    "ServicesPage": {
+        "hero": {
+            "title": "Power Your Growth with <span>Comprehensive Solutions</span>",
+            "subtitle": "Innovative strategies combining technology and creativity for transformative results"
+        },
+        "servicesSection": {
+            "title": "Our Key Services",
+            "subtitle": "Specialized solutions for every business need",
+            "services": [
+                {
+                    "title": "Digital Marketing",
+                    "description": "Data-driven campaigns with measurable ROI",
+                    "features": [
+                        "Advanced SEO",
+                        "Digital Advertising",
+                        "Email Marketing",
+                        "Web Analytics"
+                    ]
+                },
+                {
+                    "title": "Ads Management",
+                    "description": "Maximize your ad investment",
+                    "features": [
+                        "Google Ads",
+                        "Meta Ads",
+                        "LinkedIn Ads",
+                        "Real-Time Optimization"
+                    ]
+                },
+                {
+                    "title": "Tech Development",
+                    "description": "Custom scaling solutions",
+                    "features": [
+                        "Web Apps",
+                        "Automation",
+                        "API Integration",
+                        "Cloud Solutions"
+                    ]
+                },
+                {
+                    "title": "Strategic Branding",
+                    "description": "Solid identity building",
+                    "features": [
+                        "Brand Design",
+                        "Positioning",
+                        "Content Strategy",
+                        "Storytelling"
+                    ]
+                },
+                {
+                    "title": "Automation",
+                    "description": "Smart workflows",
+                    "features": [
+                        "AI Chatbots",
+                        "Automated CRM",
+                        "Workflows",
+                        "Integrations"
+                    ]
+                },
+                {
+                    "title": "Predictive Analytics",
+                    "description": "Make data-based decisions",
+                    "features": [
+                        "Business Intelligence",
+                        "Dashboards",
+                        "Predictive Models",
+                        "KPI Tracking"
+                    ]
+                }
+            ]
+        },
+        "methodology": {
+            "title": "Our Methodology",
+            "subtitle": "A proven process to ensure project success",
+            "steps": [
+                {
+                    "title": "Diagnosis",
+                    "description": "Complete business analysis"
+                },
+                {
+                    "title": "Strategy",
+                    "description": "KPI-based customized plan"
+                },
+                {
+                    "title": "Implementation",
+                    "description": "Technical and creative deployment"
+                },
+                {
+                    "title": "Optimization",
+                    "description": "Continuous AI-powered improvement"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Ready to Transform Your Business?",
+            "subtitle": "Schedule a free consultation and discover your potential",
+            "button": "Contact Us"
+        }
+    },
+    "PrivacyPage": {
+        "title": "Privacy Policy",
+        "introduction": {
+            "companyInfo": "ORION GLOBAL LLC operates the website {website}",
+            "purpose": "This page informs website visitors about our policies regarding the collection, use, and disclosure of personal information if anyone decides to use our Service, the Orivion website.",
+            "agreement": "By choosing to use our Service, you agree to the collection and use of information in relation with this policy. The personal information we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.",
+            "termsLink": "The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, available at {termsLink}, unless otherwise defined in this Privacy Policy."
+        },
+        "sections": {
+            "dataCollection": {
+                "title": "Information Collection and Use",
+                "content": "For a better experience while using our Service, we may require you to provide certain personally identifiable information, including but not limited to your name, phone number, and postal address. The information we collect will be used to contact or identify you."
+            },
+            "logData": {
+                "title": "Log Data",
+                "content": "We want to inform you that whenever you visit our Service, we collect information your browser sends to us called Log Data. This Log Data may include information such as your computer's IP address, browser version, pages of our Service you visit, the time and date of your visit, time spent on those pages, and other statistics."
+            },
+            "cookies": {
+                "title": "Cookies",
+                "content": [
+                    "Cookies are files with small amounts of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the website you visit and are stored on your computer's hard drive.",
+                    "Our website uses these cookies to collect information and improve our Service. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your computer. If you choose to refuse our cookies, you may not be able to use some portions of our Service."
+                ]
+            },
+            "serviceProviders": {
+                "title": "Service Providers",
+                "reasons": "We may employ third-party companies and individuals due to the following reasons:",
+                "services": [
+                    "To facilitate our Service",
+                    "To provide the Service on our behalf",
+                    "To perform Service-related services",
+                    "To assist us in analyzing how our Service is used"
+                ],
+                "disclaimer": "We want to inform our Service users that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose."
+            },
+            "security": {
+                "title": "Security",
+                "content": "We value your trust in providing us your Personal Information, thus we strive to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security."
+            },
+            "externalLinks": {
+                "title": "Links to Other Sites",
+                "content": "Our Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services."
+            },
+            "childrenPrivacy": {
+                "title": "Children's Privacy",
+                "content": "Our Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so we can take necessary actions."
+            },
+            "policyChanges": {
+                "title": "Changes to This Privacy Policy",
+                "content": [
+                    "We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.",
+                    "Our Privacy Policy was created with the help of the Privacy Policy Template."
+                ]
+            },
+            "contact": {
+                "title": "Contact Us",
+                "content": "If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.",
+                "email": "Email:",
+                "address": "Postal Address:"
+            }
+        }
+    },
+    "ContactPage": {
+        "title": "Contact Us",
+        "form": {
+            "namePlaceholder": "Full Name",
+            "emailPlaceholder": "Email Address",
+            "phonePlaceholder": "Phone (optional)",
+            "messagePlaceholder": "How can we help you?",
+            "submit": "Send Message"
+        },
+        "help": {
+            "text": "Need immediate assistance?",
+            "email": "team@orivion.com"
+        }
+    },
+    "AboutPage": {
+        "hero": {
+            "title": "Revolutionizing <span>Digital Growth</span>",
+            "subtitle": "Combining artificial intelligence with human expertise to create business-scaling strategies"
+        },
+        "essence": {
+            "title": "Our Essence",
+            "description": "At Orivion we don't just implement technology - we create intelligent digital ecosystems that:",
+            "items": [
+                "Automate key processes with predictive AI",
+                "Optimize campaigns in real-time",
+                "Generate actionable insights",
+                "Personalize experiences at scale"
+            ]
+        },
+        "evolution": {
+            "title": "Our Evolution",
+            "milestones": [
+                {
+                    "year": "2022",
+                    "event": "Founded as marketing automation startup"
+                },
+                {
+                    "year": "2022",
+                    "event": "First integration of predictive AI models"
+                },
+                {
+                    "year": "2023",
+                    "event": "International expansion with US office"
+                },
+                {
+                    "year": "2024",
+                    "event": "Launch of web contracting platform"
+                }
+            ]
+        },
+        "pillars": {
+            "title": "Core Pillars",
+            "subtitle": "Principles guiding every decision and strategy we develop",
+            "items": [
+                {
+                    "title": "Constant Innovation",
+                    "description": "20% annual R&D investment"
+                },
+                {
+                    "title": "Radical Transparency",
+                    "description": "Real-time reporting with clear metrics"
+                },
+                {
+                    "title": "Shared Success",
+                    "description": "KPI-based shared reward models"
+                }
+            ]
+        }
+    }
+}

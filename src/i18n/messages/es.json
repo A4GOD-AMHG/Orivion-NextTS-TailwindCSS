@@ -1,0 +1,341 @@
+{
+    "Header": {
+        "routes": {
+            "home": "Inicio",
+            "about": "¿Quiénes somos?",
+            "services": "Servicios",
+            "privacy": "Políticas de Privacidad",
+            "contact": "Contáctanos"
+        }
+    },
+    "Footer": {
+        "quickLinks": "Enlaces Rápidos",
+        "legal": "Legal",
+        "copyright": "Creado por Emyux AI. © {year} Todos los derechos reservados",
+        "address": "1209 Mountain Road Pl NE, Ste R",
+        "location": "Albuquerque, NM 87110, USA",
+        "routes": {
+            "home": "Inicio",
+            "about": "¿Quiénes somos?",
+            "services": "Servicios",
+            "privacy": "Políticas de Privacidad",
+            "contact": "Contáctanos"
+        }
+    },
+    "LocaleSwitcher": {
+        "label": "Cambiar idioma",
+        "locale": {
+            "en": "EN",
+            "es": "ES"
+        }
+    },
+    "RootLayout": {
+        "title": "ORIVION - Crecimiento y Escalabilidad",
+        "description": "Ejecutamos lo que tu negocio NECESITA para crecer",
+        "keywords": [
+            "agencia de crecimiento",
+            "crecimiento del ecommerce",
+            "monetización de la comunidad"
+        ]
+    },
+    "HomePage": {
+        "hero": {
+            "title": "Transforma tu negocio con <span>Growth Inteligente</span>",
+            "subtitle": "Potenciamos empresas con soluciones de IA y estrategias de marketing que generan resultados reales",
+            "button": "Comienza con nosotros ahora"
+        },
+        "about": {
+            "title": "¿Quiénes Somos?",
+            "heading": "Orivion: Expertos en Growth Estratégico",
+            "description": "Con más de 2 años de experiencia, hemos perfeccionado el arte de escalar negocios mediante:",
+            "items": [
+                "IA Predictiva",
+                "Automatización Inteligente",
+                "Estrategias Data-Driven",
+                "Optimización en Tiempo Real"
+            ]
+        },
+        "stats": {
+            "values": [
+                "28",
+                "95%",
+                "4.7/5"
+            ],
+            "labels": [
+                "Clientes",
+                "Satisfacción",
+                "Rating"
+            ]
+        },
+        "arsenal": {
+            "title": "Nuestro Arsenal de Growth",
+            "subtitle": "Soluciones integradas que combinan tecnología de punta y expertise humano",
+            "services": [
+                {
+                    "title": "Marketing Digital",
+                    "description": "Campañas performance con ROI medible"
+                },
+                {
+                    "title": "Gestión de Ads",
+                    "description": "Maximiza tu presupuesto publicitario"
+                },
+                {
+                    "title": "Desarrollo Tecnológico",
+                    "description": "Soluciones a medida para escalar"
+                },
+                {
+                    "title": "Branding Estratégico",
+                    "description": "Posicionamiento que genera confianza"
+                },
+                {
+                    "title": "Automatización",
+                    "description": "Flujos de trabajo inteligentes"
+                },
+                {
+                    "title": "Analítica Predictiva",
+                    "description": "Toma decisiones basadas en datos"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contáctanos",
+            "form": {
+                "namePlaceholder": "Nombre completo",
+                "emailPlaceholder": "Correo electrónico",
+                "phonePlaceholder": "Teléfono (opcional)",
+                "messagePlaceholder": "¿Cómo podemos ayudarte?",
+                "submit": "Enviar Mensaje"
+            }
+        }
+    },
+    "ServicesPage": {
+        "hero": {
+            "title": "Potencia tu Crecimiento con <span>Soluciones Integrales</span>",
+            "subtitle": "Estrategias innovadoras que combinan tecnología y creatividad para resultados transformadores"
+        },
+        "servicesSection": {
+            "title": "Nuestros Servicios Clave",
+            "subtitle": "Soluciones especializadas para cada necesidad de tu negocio",
+            "services": [
+                {
+                    "title": "Marketing Digital",
+                    "description": "Campañas data-driven con ROI medible",
+                    "features": [
+                        "SEO Avanzado",
+                        "Publicidad Digital",
+                        "Email Marketing",
+                        "Analítica Web"
+                    ]
+                },
+                {
+                    "title": "Gestión de Ads",
+                    "description": "Maximiza tu inversión publicitaria",
+                    "features": [
+                        "Google Ads",
+                        "Meta Ads",
+                        "LinkedIn Ads",
+                        "Optimización en Tiempo Real"
+                    ]
+                },
+                {
+                    "title": "Desarrollo Tecnológico",
+                    "description": "Soluciones a medida para escalar",
+                    "features": [
+                        "Web Apps",
+                        "Automatización",
+                        "Integración API",
+                        "Cloud Solutions"
+                    ]
+                },
+                {
+                    "title": "Branding Estratégico",
+                    "description": "Construcción de identidad sólida",
+                    "features": [
+                        "Diseño de Marca",
+                        "Posicionamiento",
+                        "Estrategia de Contenidos",
+                        "Storytelling"
+                    ]
+                },
+                {
+                    "title": "Automatización",
+                    "description": "Flujos de trabajo inteligentes",
+                    "features": [
+                        "Chatbots IA",
+                        "CRM Automatizado",
+                        "Workflows",
+                        "Integraciones"
+                    ]
+                },
+                {
+                    "title": "Analítica Predictiva",
+                    "description": "Toma decisiones basadas en datos",
+                    "features": [
+                        "Business Intelligence",
+                        "Dashboards",
+                        "Modelos Predictivos",
+                        "KPI Tracking"
+                    ]
+                }
+            ]
+        },
+        "methodology": {
+            "title": "Nuestra Metodología",
+            "subtitle": "Un proceso probado para garantizar el éxito de cada proyecto",
+            "steps": [
+                {
+                    "title": "Diagnóstico",
+                    "description": "Análisis completo del negocio"
+                },
+                {
+                    "title": "Estrategia",
+                    "description": "Plan personalizado con KPIs"
+                },
+                {
+                    "title": "Implementación",
+                    "description": "Despliegue técnico y creativo"
+                },
+                {
+                    "title": "Optimización",
+                    "description": "Mejora continua con IA"
+                }
+            ]
+        },
+        "cta": {
+            "title": "¿Listo para Transformar tu Negocio?",
+            "subtitle": "Agenda una consultoría gratuita y descubre tu potencial",
+            "button": "Contáctanos"
+        }
+    },
+    "PrivacyPage": {
+        "title": "Política de Privacidad",
+        "introduction": {
+            "companyInfo": "ORION GLOBAL LLC opera en el sitio web",
+            "purpose": "Esta página se utiliza para informar a los visitantes del sitio web sobre nuestras políticas de recopilación, uso y divulgación de información personal si deciden utilizar nuestro Servicio, el sitio web de {companyName}.",
+            "agreement": "Si decide utilizar nuestro Servicio, acepta la recopilación y el uso de información en relación con esta política. La información personal que recopilamos se utiliza para proporcionar y mejorar el Servicio. No utilizaremos ni compartiremos su información con nadie, salvo como se describe en esta Política de Privacidad.",
+            "termsLink": "Los términos utilizados en esta Política de Privacidad tienen el mismo significado que en nuestros Términos y Condiciones, disponibles en {termsLink}, a menos que se defina lo contrario en esta Política de Privacidad."
+        },
+        "sections": {
+            "dataCollection": {
+                "title": "Recopilación y uso de información",
+                "content": "Para una mejor experiencia al usar nuestro Servicio, podríamos solicitarle cierta información personal, como su nombre, número de teléfono y dirección postal, entre otros. La información que recopilemos se utilizará para contactarle o identificarle."
+            },
+            "logData": {
+                "title": "Datos de registro",
+                "content": "Le informamos que, cada vez que visita nuestro Servicio, recopilamos información que su navegador nos envía, denominada Datos de Registro. Estos Datos de Registro pueden incluir información como la dirección IP de su ordenador, la versión del navegador, las páginas de nuestro Servicio que visita, la fecha y hora de su visita, el tiempo que pasa en esas páginas y otras estadísticas."
+            },
+            "cookies": {
+                "title": "Cookies",
+                "content": [
+                    "Las cookies son archivos con una pequeña cantidad de datos que se utilizan comúnmente como identificador único anónimo. Se envían a su navegador desde el sitio web que visita y se almacenan en el disco duro de su ordenador.",
+                    "Nuestro sitio web utiliza estas cookies para recopilar información y mejorar nuestro Servicio. Usted tiene la opción de aceptarlas o rechazarlas y saber cuándo se envían a su ordenador. Si decide rechazarlas, es posible que no pueda utilizar algunas partes de nuestro Servicio."
+                ]
+            },
+            "serviceProviders": {
+                "title": "Proveedores de Servicios",
+                "reasons": "Podemos emplear empresas e individuos de terceros por las siguientes razones:",
+                "services": [
+                    "Para facilitar nuestro servicio",
+                    "Para proporcionar el Servicio en nuestro nombre",
+                    "Para realizar servicios relacionados con el Servicio",
+                    "Para ayudarnos a analizar cómo se utiliza nuestro Servicio"
+                ],
+                "disclaimer": "Queremos informar a los usuarios de nuestro Servicio que estos terceros tienen acceso a su Información Personal. Esto se debe a que realizan las tareas que les fueron asignadas en nuestro nombre. Sin embargo, están obligados a no divulgar ni utilizar la información para ningún otro fin."
+            },
+            "security": {
+                "title": "Seguridad",
+                "content": "Valoramos su confianza al proporcionarnos su Información Personal, por lo que nos esforzamos por utilizar medios comercialmente aceptables para protegerla. Sin embargo, recuerde que ningún método de transmisión por internet ni de almacenamiento electrónico es 100 % seguro y fiable, y no podemos garantizar su seguridad absoluta."
+            },
+            "externalLinks": {
+                "title": "Enlaces a otros sitios",
+                "content": "Nuestro Servicio puede contener enlaces a otros sitios. Si hace clic en un enlace de un tercero, será redirigido a dicho sitio. Tenga en cuenta que estos sitios externos no son operados por nosotros. Por lo tanto, le recomendamos encarecidamente que revise la Política de Privacidad de estos sitios web. No tenemos control ni asumimos ninguna responsabilidad por el contenido, las políticas de privacidad ni las prácticas de ningún sitio o servicio de terceros."
+            },
+            "childrenPrivacy": {
+                "title": "Privacidad de los niños",
+                "content": "Nuestros Servicios no están dirigidos a menores de 13 años. No recopilamos intencionalmente información personal identificable de menores de 13 años. En caso de que descubramos que un menor de 13 años nos ha proporcionado información personal, la eliminaremos inmediatamente de nuestros servidores. Si usted es padre, madre o tutor y sabe que su hijo nos ha proporcionado información personal, póngase en contacto con nosotros para que podamos tomar las medidas necesarias."
+            },
+            "policyChanges": {
+                "title": "Cambios a esta Política de Privacidad",
+                "content": [
+                    "Podemos actualizar nuestra Política de Privacidad periódicamente. Por lo tanto, le recomendamos revisar esta página periódicamente para estar al tanto de cualquier cambio. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página. Estos cambios entran en vigor inmediatamente después de su publicación en esta página.",
+                    "Nuestra Política de Privacidad fue creada con la ayuda de la Plantilla de Política de Privacidad."
+                ]
+            },
+            "contact": {
+                "title": "Contáctanos",
+                "content": "Si tiene alguna pregunta o sugerencia sobre nuestra Política de Privacidad, no dude en contactarnos.",
+                "email": "Correo:",
+                "address": "Dirección postal:"
+            }
+        }
+    },
+    "ContactPage": {
+        "title": "Contáctanos",
+        "form": {
+            "namePlaceholder": "Nombre completo",
+            "emailPlaceholder": "Correo electrónico",
+            "phonePlaceholder": "Teléfono (opcional)",
+            "messagePlaceholder": "¿Cómo podemos ayudarte?",
+            "submit": "Enviar Mensaje"
+        },
+        "help": {
+            "text": "¿Necesitas ayuda inmediata?",
+            "email": "team@orivion.com"
+        }
+    },
+    "AboutPage": {
+        "hero": {
+            "title": "Revolucionando el <span>Growth Digital</span>",
+            "subtitle": "Combinamos inteligencia artificial con expertise humano para crear estrategias que escalan negocios"
+        },
+        "essence": {
+            "title": "Nuestra Esencia",
+            "description": "En Orivion no solo implementamos tecnología - creamos ecosistemas digitales inteligentes que:",
+            "items": [
+                "Automatizan procesos clave con IA predictiva",
+                "Optimizan campañas en tiempo real",
+                "Generan insights accionables",
+                "Personalizan experiencias a escala"
+            ]
+        },
+        "evolution": {
+            "title": "Nuestra Evolución",
+            "milestones": [
+                {
+                    "year": "2022",
+                    "event": "Fundación como startup de marketing automatizado"
+                },
+                {
+                    "year": "2022",
+                    "event": "Primera integración de modelos predictivos de IA"
+                },
+                {
+                    "year": "2023",
+                    "event": "Expansión internacional con oficina en EE.UU."
+                },
+                {
+                    "year": "2024",
+                    "event": "Lanzamiento plataforma web para de contratación"
+                }
+            ]
+        },
+        "pillars": {
+            "title": "Pilares Fundamentales",
+            "subtitle": "Los principios que guían cada decisión y estrategia que desarrollamos",
+            "items": [
+                {
+                    "title": "Innovación Constante",
+                    "description": "Invertimos 20% de recursos en I+D anual"
+                },
+                {
+                    "title": "Transparencia Radical",
+                    "description": "Reportes en tiempo real con métricas claras"
+                },
+                {
+                    "title": "Resultados Compartidos",
+                    "description": "Modelos de éxito compartido basados en KPIs"
+                }
+            ]
+        }
+    }
+}

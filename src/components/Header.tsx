@@ -4,22 +4,23 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import Logo from './Logo'
+import { useTranslations } from 'next-intl'
+import LocaleSwitcher from '@/i18n/locale-switcher'
 
 export default function Header() {
     const pathname = usePathname()
     const [isOpen, setIsOpen] = useState(false)
+    const t = useTranslations('Header')
+
     const routes = [
-        { name: 'Inicio', path: '/' },
-        { name: '¿Quienes somos?', path: '/about-us' },
-        { name: 'Servicios', path: '/services' },
-        { name: 'Políticas de Privacidad', path: '/privacy-policy' },
-        // { name: 'Términos', path: '/terms' },
-        { name: 'Contáctanos', path: '/contact-us' },
+        { name: t('routes.home'), path: '/' },
+        { name: t('routes.about'), path: '/about-us' },
+        { name: t('routes.services'), path: '/services' },
+        { name: t('routes.privacy'), path: '/privacy-policy' },
+        { name: t('routes.contact'), path: '/contact-us' },
     ]
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen)
-    }
+    const toggleMenu = () => setIsOpen(!isOpen)
 
     return (
         <header className="sticky top-0 bg-white shadow z-50">
@@ -27,6 +28,7 @@ export default function Header() {
                 <Link href="/">
                     <Logo width={200} height={100} />
                 </Link>
+
                 <div className="hidden md:flex items-center gap-6">
                     {routes.map((route) => {
                         const isActive = pathname === route.path
@@ -42,49 +44,41 @@ export default function Header() {
                             </Link>
                         )
                     })}
+                    <LocaleSwitcher />
                 </div>
-                <div className="md:hidden">
+
+                <div className="md:hidden flex items-center gap-4">
+                    <LocaleSwitcher />
                     <button onClick={toggleMenu} className="focus:outline-none">
                         {!isOpen ? (
-                            <svg
-                                className="w-6 h-6"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
+                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                             </svg>
                         ) : (
-                            <svg
-                                className="w-6 h-6"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
+                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         )}
                     </button>
                 </div>
             </nav>
+
             {isOpen && (
                 <div className="md:hidden bg-white">
-                    <div className="flex flex-col items-end px-4 pb-3">
+                    <div className="flex flex-col items-end px-4 pb-3 gap-2">
                         {routes.map((route) => {
                             const isActive = pathname === route.path
                             return (
-                                <Link className='relative' key={route.path} href={route.path}>
+                                <Link className='relative w-full text-right' key={route.path} href={route.path}>
                                     <span
-                                        className={`block text-xl font-medium py-1 text-gray-800
+                                        className={`block text-xl font-medium py-1 text-gray-800 ${isActive ? 'text-purple-600' : ''
                                             }`}
                                         onClick={() => setIsOpen(false)}
                                     >
                                         {route.name}
                                     </span>
                                     <span
-                                        className={`absolute left-0 -bottom-0 block h-[4px] bg-purple-600 transition-all duration-300 ${isActive ? 'w-full' : 'w-0 group-hover:w-full'
+                                        className={`absolute right-0 bottom-0 block h-[4px] bg-purple-600 transition-all duration-300 ${isActive ? 'w-full' : 'w-0 group-hover:w-full'
                                             }`}
                                     />
                                 </Link>
