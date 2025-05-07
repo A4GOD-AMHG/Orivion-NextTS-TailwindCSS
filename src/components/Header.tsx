@@ -1,11 +1,10 @@
 'use client'
 
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import Logo from './Logo'
 import { useTranslations } from 'next-intl'
 import LocaleSwitcher from '@/i18n/locale-switcher'
+import { Link, usePathname } from '@/i18n/navigation'
 
 export default function Header() {
     const pathname = usePathname()
